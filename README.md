@@ -22,12 +22,9 @@
 ### Local (.env.local)
 VITE_API_URL=http://localhost:8080/api/v1
 
-Code
 
 ### Vercel (Environment Variables)
 VITE_API_URL=https://joseribelles-backend.onrender.com/api/v1
-
-Code
 
 ## Modificaciones Realizadas
 
