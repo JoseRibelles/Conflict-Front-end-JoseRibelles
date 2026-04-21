@@ -2,8 +2,7 @@ import { defineStore } from "pinia";
 import { ref, computed } from "vue";
 
 export const useConflictStore = defineStore("conflicts", () => {
-  const API_URL = "/api/v1";
-  const conflicts = ref([]);
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api/v1";  const conflicts = ref([]);
   const countries = ref([]);
   const factions = ref([]);
   const loading = ref(false);
